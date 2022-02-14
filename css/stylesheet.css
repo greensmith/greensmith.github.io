@@ -10529,6 +10529,31 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .subtitle {
   color: #7a7a7a !important; }
 
+content > h1:not(.title):not(.subtitle),
+h2:not(.title):not(.subtitle),
+h3:not(.title):not(.subtitle) {
+  font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif, -apple-system; }
+
+content > h1:not(.title):not(.subtitle):before,
+h2:not(.title):not(.subtitle):before,
+h3:not(.title):not(.subtitle):before {
+  content: "# "; }
+
+figure > figcaption > h4 {
+  font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif, -apple-system;
+  font-size: 1em !important; }
+
+div.column.is-two-thirds > div > div.card-content > div.content > figure > img:hover {
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  -ms-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+  transform: scale(2, 2); }
+
+div.highlight {
+  margin-bottom: 1em; }
+
 html {
   background: linear-gradient(-45deg, white, rgba(65, 105, 225, 0.25));
   background-size: 200% 200%;
