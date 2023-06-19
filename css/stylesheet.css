@@ -10569,7 +10569,7 @@ h2:not(.title):not(.subtitle):before,
 h3:not(.title):not(.subtitle):before {
   content: "# "; }
 
-figure.cert > img {
+img.cert {
   width: 64px;
   height: 64px;
   border-radius: 50%;
